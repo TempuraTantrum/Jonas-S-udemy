@@ -11,11 +11,11 @@
   margin: 0 auto;
 } */
 
-body {
+.product {
   border: solid 10px black;
   font-family: Arial, Helvetica, sans-serif;
   width: 700px;
-  margin: 0 auto;
+  margin: 50px auto;
 }
 
 .banner {
