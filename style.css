@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
 }
-
+/* PAGE SECTIONS */
 body {
   font-family: sans-serif;
   color: #444;
@@ -23,7 +23,7 @@ body {
   background-color: #e0e0e0;
   padding: 20px 40px;
   margin-bottom: 60px;
-  height: 80px;
+  /* height: 80px; */
 }
 
 nav {
@@ -47,15 +47,7 @@ aside {
   width: 500px;
 }
 
-/* h1,
-h2,
-h3,
-h4,
-p,
-li {
-  font-family: sans-serif;
-  color: #444;
-} */
+/* SMALLER ELEMENTS */
 
 h1,
 h2,
@@ -173,3 +165,7 @@ a:active {
   width: 100%;
   height: auto;
 }
+
+/* nav a:link {
+  background-color: yellowgreen;
+} */
