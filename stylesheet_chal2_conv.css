@@ -11,11 +11,35 @@
   margin: 0 auto;
 } */
 
+/* sale tag */
+
 .product {
   border: solid 4px black;
   font-family: Arial, Helvetica, sans-serif;
   width: 700px;
   margin: 50px auto;
+}
+
+article {
+  width: 825px;
+  margin-bottom: 0;
+}
+
+h2 {
+  position: relative;
+}
+
+.banner::before {
+  content: "SALE";
+  color: rgb(251, 248, 248);
+  background-color: #f53004;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -15px;
+  left: -35px;
 }
 
 .banner {
@@ -25,14 +49,6 @@
   padding: 20px;
   margin: 0;
 }
-
-article {
-  width: 825px;
-  margin-bottom: 0;
-}
-
-/* h2 {
-} */
 
 .price {
   font-size: 30px;
