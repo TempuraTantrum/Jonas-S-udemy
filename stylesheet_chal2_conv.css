@@ -34,8 +34,8 @@ h2 {
   color: rgb(251, 248, 248);
   background-color: #f53004;
   font-size: 16px;
-  font-weight: bold;
-  display: inline-block;
+  font-family: andale mono, monospace;
+  letter-spacing: 5px;
   padding: 5px 10px;
   position: absolute;
   top: -15px;
@@ -55,13 +55,39 @@ h2 {
   margin-bottom: 0px;
   margin-top: 10px;
 }
-
+/* more information link */
 a:link {
-  /* text-decoration: none; */
   color: black;
 }
 a:link:hover {
   text-decoration: none;
+}
+
+/* COLOUR CHOICES */
+.colour-box {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.black {
+  background-color: black;
+}
+.blue {
+  background-color: blue;
+}
+.red {
+  background-color: red;
+}
+.yellow {
+  background-color: yellow;
+}
+.green {
+  background-color: green;
+}
+.brown {
+  background-color: brown;
 }
 
 .details {
