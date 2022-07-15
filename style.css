@@ -4,6 +4,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 /* PAGE SECTIONS */
 body {
@@ -14,7 +15,7 @@ body {
 }
 
 .container {
-  width: 800px;
+  width: 1200px;
   /* margin-left: auto;
   margin-right: auto; */
   margin: 0 auto;
@@ -46,9 +47,7 @@ aside {
   background-color: #e0e0e0;
   border-top: 5px solid #1098ad;
   border-bottom: 5px solid #1098ad;
-  padding: 50px 0px;
-  margin-bottom: 60px;
-  width: 500px;
+  padding: 50px 40px;
 }
 
 /* SMALLER ELEMENTS */
@@ -79,6 +78,7 @@ h4 {
   font-size: 20px;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 p {
@@ -125,6 +125,7 @@ font-size: 16px;
 
 .related-posts {
   list-style: none;
+  margin-left: 0;
 }
 
 li:first-child {
@@ -220,14 +221,12 @@ h2::after {
 }
 
 /* FLOATS Vid 47 */
-
 .author-img {
   float: left;
   margin-bottom: 20px;
 }
 
 .author {
-  /* padding-left: 80px; */
   float: left;
   margin-top: 10px;
   margin-left: 20px;
@@ -249,4 +248,18 @@ nav {
   content: "";
   clear: both;
   display: block;
+}
+
+article {
+  width: 825px;
+  float: left;
+}
+
+aside {
+  width: 300px;
+  float: right;
+}
+
+footer {
+  clear: both;
 }
