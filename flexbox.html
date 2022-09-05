@@ -43,10 +43,40 @@
 
         /* FLEXBOX */
         display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 30px;
+      }
+      .el {
+        /*
+        DEFAULTS
+        flex-grow: 0;
+        flex-shrink: 1;
+        flex-basis: auto; */
+
+        flex: 0 0 200px;
+
+        /* flex-grow:1;
+       flex-basis:200px; */
+      }
+
+      .el--1 {
+        align-self: flex-start;
+      }
+
+      .el--5 {
+        align-self: stretch;
+        order: 1;
+      }
+
+      .el--6 {
+        order: -1;
       }
     </style>
+
     <a href="index.html">BACK</a>
   </head>
+
   <body>
     <div class="container">
       <div class="el el--1">HTML</div>
@@ -55,8 +85,8 @@
       <div class="el el--4">are</div>
       <div class="el el--5">amazing</div>
       <div class="el el--6">languages</div>
-      <div class="el el--7">to</div>
-      <div class="el el--8">learn</div>
+      <!-- <div class="el el--7">to</div>
+      <div class="el el--8">learn</div> -->
     </div>
   </body>
 </html>
